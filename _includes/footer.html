@@ -1,23 +1,40 @@
-<footer>
-    <div class="container">
-        <div class="copyright">
-            <p>Desenvolvido com <i class="fa fa-heart"></i> pelo <strong>WoMakersCode</strong>.</p>
-        </div>
-        <div class="social">
-            Compartilhe:
-            <a href="https://twitter.com/home?status={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}%20={{ site.url }}{{page.url}}" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{page.url}}" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.reddit.com/submit?title={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}&url={{ site.url }}{{page.url}}" target="_blank"><i class="fa fa-reddit"></i></a>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{page.url}}&title={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" target="_blank"><i class="fa fa-linkedin"></i></a>
-        </div>
+<footer class="footer-makers">
+  <div class="container">
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+      <div class="row">
+        <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
+          <img src="{{ "/img/wmc-f-ico.png" | prepend: site.baseurl }}" />
+        </a>
+      </div>
     </div>
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <p>Partes deste conteúdo possuem direitos reservados (©2015–2017) por colaboradores da womakerscode.org. <a href="https://br.creativecommons.org/licencas/" target="_blank" title="Conteúdo disponível sob a licença Creative Commons">Conteúdo disponível sob a licença Creative Commons</a>.</p>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+    </div>
+
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <div class="row">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.facebook.com/womakerscode/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="http://twitter.com/womakerscode" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/company/womakerscode" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/womakerscode" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="https://www.meetup.com/pt-BR/WoMakersCode/" target="_blank"><i class="fa fa-meetup" aria-hidden="true"></i></a>
+            <a href="https://github.com/WoMakersCode" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 </footer>
-<script data-require="jquery@2.1.1" data-semver="1.9.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="{{ "/js/script.js" | prepend: site.baseurl }}"></script>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1495516100665794";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="http://getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
