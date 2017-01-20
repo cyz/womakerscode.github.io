@@ -138,6 +138,7 @@ body {
   background: #21262a; }
   .footer-makers p {
     font-size: 1.2rem;
+    text-align: justify;
     color: #ccc; }
     .footer-makers p a:hover {
       color: #a50a63; }
