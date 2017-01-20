@@ -1,1 +1,2 @@
-[config] project = _site
+[config]
+project = _site
