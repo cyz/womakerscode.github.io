@@ -1,0 +1,23 @@
+<footer>
+    <div class="container">
+        <div class="copyright">
+            <p>Desenvolvido com <i class="fa fa-heart"></i> pelo <strong>WoMakersCode</strong>.</p>
+        </div>
+        <div class="social">
+            Compartilhe:
+            <a href="https://twitter.com/home?status={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}%20={{ site.url }}{{page.url}}" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{page.url}}" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.reddit.com/submit?title={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}&url={{ site.url }}{{page.url}}" target="_blank"><i class="fa fa-reddit"></i></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{page.url}}&title={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+<script data-require="jquery@2.1.1" data-semver="1.9.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ "/js/script.js" | prepend: site.baseurl }}"></script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=1495516100665794";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

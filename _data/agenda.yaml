@@ -1,0 +1,109 @@
+-
+  group: "Alagoas"
+  id: "01"
+  elements:
+    - {
+      date: "19 de Março",
+      place: "SENAC Farol",
+      picture: "maceio.jpg",
+      title: "Maratona #WMC Maceió",
+      description: "Este é um workshop com uma abordagem prática sobre como a web funciona, e você terá a oportunidade de começar criar as suas próprias páginas!",
+      type: "all",
+      complexity: "Livre",
+      public: "Todos",
+      link: "http://www.eventick.com.br/workshop-march-mcz-wmc16",
+      organizer: "Esther de Freitas e Marina Limeira",
+      organizerLabel: "Organização"
+      }
+-
+  group: "Bahia"
+  id: "02"
+  elements:
+    - {
+      date: "03 de Março",
+      place: "Colégio Estadual Quintinha de Melo",
+      picture: "barreiras.jpg",
+      title: "#WMC Barreiras, Bahia",
+      description: "Com foco no empoderamento feminino na tecnologia e na igualidade de gênero, o WoMakersCode começa 2016 com uma maratona de atividades! Nesta atividade, vamos trabalhar com inclusão digital.
+       de inclusão.",
+      type: "all",
+      complexity: "Aberto ao Público",
+      public: "Todos",
+      link: "#",
+      organizer: "Edivânia Dias",
+      organizerLabel: "Organização"
+    }
+    - {
+      date: "29 de Março",
+      place: "IFBA - Campus Eunápolis",
+      picture: "barreiras.jpg",
+      title: "#WMC Eunápolis",
+      description: "Maratona #WMC16 Eunápolis. Oficinas e palestra sobre desenvolvimento web, colaboração, experiência de usuário (UX), qualidade de software, entre outros.",
+      type: "all",
+      complexity: "Aberto ao Público",
+      public: "Todos",
+      link: "http://www.eventick.com.br/maratona-wmc16-eunapolis",
+      organizer: "Ramilton Costa Gomes Junior",
+      organizerLabel: "Organização"
+    }
+-
+  group: "Rio Grande do Sul"
+  id: "03"
+  elements:
+    - {
+      date: "19 de Março",
+      place: "Senac Informática",
+      picture: "poa-rs.JPG",
+      title: "Maratona #WMC Porto Alegre",
+      description: "Com foco no empoderamento feminino na tecnologia e na igualidade de gênero, o WoMakersCode começa 2016 com uma maratona de atividades! Queremos aproximar a comunidade de desenvolvimento, para aprender e debater junto sobre tecnologia e sobre a cultura
+       de inclusão.",
+      type: "all",
+      complexity: "Livre",
+      public: "Todos",
+      link: "http://www.eventick.com.br/maratona-wmc16",
+      organizer: "WoMakersCode RS",
+      organizerLabel: "Organização"
+    }
+-
+  group: "São Paulo"
+  id: "04"
+  elements:
+    - {
+      date: "12 de Março",
+      place: "Jaboticabal",
+      picture: "jaboti12main.jpg",
+      title: "Maratona #WMC Jaboticabal",
+      description: "Workshop e bate papo para você aprender a criar sites - do papel ao código - e ainda entender conhecer mais sobre internet das coisas! Orgulhosamente organizado pelo time do JabukaMoz :-)",
+      type: "all",
+      complexity: "Livre",
+      public: "Todos",
+      link: "http://www.eventick.com.br/maratona-wmc16-jaboticabal",
+      organizer: "Jaboticabal Mozilla Club",
+      organizerLabel: "Organização"
+    }
+    - {
+      date: "16 de Março",
+      place: "CEU Florence",
+      picture: "campinas-sp.jpg",
+      title: "Maratona #WMC Campinas",
+      description: "A Maratona WoMakersCode chega em Campinas com objetivo de fornecer ao aluno uma visão geral das técnicas, princípios, conceitos básicos e fundamentos do framework Bootstrap 3, capacitando-o a empregar as funcionalidades do framework para desenvolver layout responsivo.",
+      type: "all",
+      complexity: "Livre",
+      public: "Todos",
+      link: "http://eventick.com.br/wmc16campinas",
+      organizer: "Leão Mozilla Clubs",
+      organizerLabel: "Organização"
+    }
+    - {
+      date: "19 de Março",
+      place: "Faculdade Impacta de Tecnologia",
+      picture: "sp-capital.jpg",
+      title: "Maratona #WMC São Paulo",
+      description: "WoMakersCode chega a São Paulo, trazendo um capítulo da Maratona #WMC16, contando com o apoio de comunidades locais que acreditem na importância de um mercado de trabalho mais justo e igualitário.",
+      type: "all",
+      complexity: "Livre",
+      public: "Todos",
+      link: "http://www.eventick.com.br/maratona-wmc16-sp",
+      organizer: "Cynthia Pereira, Geraldo Barros e assistente Cristina Luz",
+      organizerLabel: "Organização"
+    }
